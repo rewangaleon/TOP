@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Function library example</title>
+  <style>
+    input {
+      font-size: 2em;
+      margin: 10px 1px 0;
+    }
+  </style>
+  </head>
+<body>
+
+  <input class="numberInput" type="text">
+  <p></p>
+
+  <script>
+    function add7(num){
+      return num+7;
+    }
+
+    function multiply(num1, num2){
+      return (num1*num2);
+    }
+
+    function capitalize(str1){
+      let modStr = str1[0].toUpperCase()+str1.slice(1).toLowerCase();
+      return modStr;
+    }
+
+    console.log(add7(9));
+    console.log(multiply(5,7));
+    console.log(capitalize("Lorem ipsum dolor sit amMDWDWEWFWEet, consectetur adip"));
+  </script>
+</body>
+</html>
